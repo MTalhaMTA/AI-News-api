@@ -1,0 +1,136 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Container Layout */
+.login-container {
+  display: flex;
+  min-height: 100vh; /* ✅ Full screen height */
+}
+
+/* Left Section */
+.login-left {
+  flex: 1;
+  padding: 60px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand {
+  color: #3b4dff;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3b4dff;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Input Groups */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff; /* ✅ always white */
+  color: #000;
+}
+
+/* Options */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.forgot {
+  color: #3b4dff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #3b4dff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-btn {
+  background: #3b4dff;
+  color: #fff;
+}
+
+.signup-btn {
+  
+  border: 1px;
+  width:18vh;
+  background-color: #3b4dff;
+}
+
+/* Social Links */
+.or-text {
+  margin: 20px 0 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.social-links a {
+  margin-right: 15px;
+  color: #3b4dff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* Right Section */
+.login-right {
+  flex: 1;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.illustration {
+  max-width: 80%;
+}
+
+
